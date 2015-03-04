@@ -1,0 +1,12 @@
+/* CSS stylsheet to create a small box locked to the bottom right with a picture, text, and link */
+
+
+.by { right: 0; bottom: 0; background-color: #ff4742; color: #fff; position: fixed; font-weight: 500; z-index: 4; border-top-left-radius: 0.2em; padding: 0.5em; }
+
+/* inverts colors on hover */
+
+.by:hover { background-color: #fff; color: #ff4742; }
+
+.by img { border-radius: 2em; width: 1.5em; vertical-align: middle; }
+
+.by p { vertical-align: middle; display: inline; margin-left: 0.5em; font-weight: 600; }
